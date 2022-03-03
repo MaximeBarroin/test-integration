@@ -7,8 +7,8 @@ name: Mon premier test
 # au push sur branche ...
 on: 
   push:
-    branches:
-      - dev # preuve que ça ne marche pas sur main
+    tags:
+      - 1.0.* # preuve que ça ne marche pas sur main
 # ensuite on déclare des processus de travail, des routines.
 jobs:
   # on donne un nom à notre job
