@@ -5,7 +5,10 @@ name: Mon premier test
 # pull
 # merge
 # au push sur branche ...
-on: push
+on: 
+  push:
+    branches:
+      - dev
 # ensuite on déclare des processus de travail, des routines.
 jobs:
   # on donne un nom à notre job
