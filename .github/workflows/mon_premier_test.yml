@@ -14,14 +14,14 @@ jobs:
     # on déclare les tâches que notre processus va exécuter
     steps:
       - run: echo "Salut"
-      - name: Reponse "Salut"
+      - name: Reponse Salut
       - run: echo "Salut Jean Mich"
       - run: echo "TG"
 
   toto:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Salut"
-      - name: Reponse "Salut"
+      - run: echo "Salut Toto"
+      - name: Reponse Salut
       - run: echo "Salut Jean Mich"
       - run: echo "TG batard"
