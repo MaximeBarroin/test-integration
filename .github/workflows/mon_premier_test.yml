@@ -8,8 +8,9 @@ name: Mon premier test
 on: 
   push:
     tags:
-      - 1.* # preuve que ça ne marche pas sur main
-# ensuite on déclare des processus de travail, des routines.
+      - 1.* # preuve que ça ne marche pas sur main   
+      
+# ensuite on déclare des processus de travail, des routines.  
 jobs:
   # on donne un nom à notre job
   exploration:
