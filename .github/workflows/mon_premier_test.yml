@@ -2,14 +2,16 @@
 name: Mon premier test
 # On indique le déclencheur
 # push
-# pull
+# pull request
 # merge
 # au push sur branche ...
-on: 
-  push:
-    tags:
-      - 1.* # preuve que ça ne marche pas sur main   
-      
+# schedule , on , cron , permet de déclencher des routine à ds heres donnée
+on: pull_request
+
+
+
+
+
 # ensuite on déclare des processus de travail, des routines.  
 jobs:
   # on donne un nom à notre job
