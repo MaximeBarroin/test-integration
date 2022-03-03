@@ -1,0 +1,33 @@
+# titre du workflow
+name: Mon premier test
+# On indique le déclencheur
+# push
+# pull
+# merge
+# au push sur branche ...
+on: push
+# ensuite on déclare des processus de travail, des routines.
+jobs:
+  # on donne un nom à notre job
+  exploration: 
+    runs-on: ubuntu-latest # on peut aussi avoir l'option debian, windows ou macos par exemple
+    # on déclare les tâches que notre processus va exécuter
+    steps:
+      - run: echo "Salut"
+      - name: Reponse "Salut"
+      - run : echo "Salut Jean Mich"
+      - run: echo "TG"
+      
+
+  toto: 
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Salut"
+      - name: Reponse "Salut"
+      - run : echo "Salut Jean Mich"
+      - run: echo "TG"
+  
+
+  
+
+
