@@ -26,5 +26,18 @@ jobs:
         # ce repository permet d'utiliser certains mots clés https://github.com/actions/checkout
       - name : "Lister les contenus du dossier de mon test"
         run: ls 
+  
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - name: je fais des tests
+        run: echo "je fais des tests"
+    
+  build:
+    needs: tests
+    runs-on: ubuntu-latest
+    steps:
+        - name: je fais le build
+          run: echo "je fais le build"
 
       
