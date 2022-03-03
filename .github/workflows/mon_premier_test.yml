@@ -21,7 +21,6 @@ jobs:
   toto:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Salut Toto"
-      - name: Reponse Salut
-        run: echo "Salut Jean Mich"
-      - run: echo "TG batard"
+      - name : "Lister les contenus du dossier de mon test"
+        run: ls 
+      
