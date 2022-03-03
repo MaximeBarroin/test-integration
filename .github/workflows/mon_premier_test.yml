@@ -15,7 +15,7 @@ jobs:
     steps:
       - run: echo "Salut"
       - name: Reponse Salut
-      - run: echo "Salut Jean Mich"
+        run: echo "Salut Jean Mich"
       - run: echo "TG"
 
   toto:
@@ -23,5 +23,5 @@ jobs:
     steps:
       - run: echo "Salut Toto"
       - name: Reponse Salut
-      - run: echo "Salut Jean Mich"
+        run: echo "Salut Jean Mich"
       - run: echo "TG batard"
